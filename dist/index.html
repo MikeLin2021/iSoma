@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="iSoma is a wearable ECG patch and AI-enabled platform for long-term cardiac monitoring research and clinical collaboration.">
+  <meta name="theme-color" content="#0b4f83">
+  <title>iSoma — Wearable ECG & AI Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="header">
+    <div class="nav-wrap">
+      <a class="logo" href="#top" aria-label="iSoma home"><span class="logo-pulse" aria-hidden="true"></span><span>iSoma<small>ECG + AI</small></span></a>
+      <button class="menu" type="button" aria-expanded="false" aria-controls="nav"><i></i><i></i><i></i><span class="sr-only">Open menu</span></button>
+      <nav id="nav" aria-label="Primary navigation">
+        <a href="#platform">Platform</a><a href="#how">How it works</a><a href="#evidence">Evidence</a><a href="#development">Development</a><a href="#contact" class="nav-button">Collaborate with us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid shell">
+        <div class="hero-copy reveal">
+          <div class="status-pill"><span></span> Research & development platform</div>
+          <h1>Heart monitoring that moves with <em>real life.</em></h1>
+          <p class="lead">iSoma combines a lightweight wearable ECG patch, connected mobile experience and AI-assisted analysis to advance accessible, long-term cardiac monitoring.</p>
+          <div class="actions"><a class="button primary" href="#platform">Explore the platform <b>↘</b></a><a class="button secondary" href="#contact">Discuss a pilot</a></div>
+          <div class="hero-facts"><span><b>Wearable</b><small>Compact ECG sensing</small></span><span><b>Connected</b><small>Mobile and cloud pathway</small></span><span><b>Intelligent</b><small>AI-assisted analysis</small></span></div>
+        </div>
+        <div class="hero-media reveal">
+          <img src="assets/isoma-hero.png" alt="Conceptual visual of a wearable ECG patch with a subtle digital waveform">
+          <div class="media-label"><span>CONCEPT VISUAL</span><b>Wearable cardiac sensing</b></div>
+          <div class="floating-card"><span class="mini-pulse" aria-hidden="true"></span><div><small>CONNECTED PATHWAY</small><b>Patch → App → AI</b></div></div>
+        </div>
+      </div>
+      <div class="hero-line" aria-hidden="true"></div>
+    </section>
+
+    <section class="credibility">
+      <div class="shell credibility-grid"><p>Developed through research in wearable sensing, wireless systems and digital health</p><div><span>The University of Sydney</span><span>Clinical collaborators</span><span>IoT & Telecommunications</span></div></div>
+    </section>
+
+    <section class="section shell" id="platform">
+      <div class="section-head reveal"><div><p class="eyebrow">The iSoma platform</p><h2>One continuous pathway from signal to insight.</h2></div><p>Designed as an integrated ecosystem—not a standalone sensor—iSoma connects physiological measurement, secure data transfer and review-ready analysis.</p></div>
+      <div class="platform-grid">
+        <article class="feature feature-patch reveal"><span class="number">01</span><div class="feature-icon patch-icon" aria-hidden="true"><i></i></div><h3>Wearable ECG patch</h3><p>A compact, lightweight sensing device designed for comfortable, extended ECG acquisition.</p><ul><li>24-bit signal acquisition architecture</li><li>Low-power Bluetooth connectivity</li><li>Long-term monitoring focus</li></ul></article>
+        <article class="feature reveal"><span class="number">02</span><div class="feature-icon phone-icon" aria-hidden="true"><i></i></div><h3>Connected mobile experience</h3><p>Mobile applications support device connection, signal viewing and secure data transfer.</p><ul><li>Android and iOS development</li><li>Near-real-time signal access</li><li>User-centred monitoring workflow</li></ul></article>
+        <article class="feature feature-ai reveal"><span class="number">03</span><div class="feature-icon ai-icon" aria-hidden="true"><i></i><i></i><i></i></div><h3>AI-assisted analysis</h3><p>Signal-processing and deep-learning methods help organise long-duration ECG data for efficient review.</p><ul><li>Noise-aware processing</li><li>Rhythm classification research</li><li>Clinician-facing reporting pathway</li></ul></article>
+      </div>
+    </section>
+
+    <section class="section experience" id="how">
+      <div class="shell">
+        <div class="section-head light reveal"><div><p class="eyebrow">Connected experience</p><h2>See the whole monitoring journey.</h2></div><p>Select each stage to explore how iSoma connects wearable sensing with AI-assisted review.</p></div>
+        <div class="journey">
+          <div class="journey-tabs" role="tablist" aria-label="iSoma monitoring journey">
+            <button role="tab" aria-selected="true" aria-controls="journey-panel" id="wear-tab" data-stage="wear"><span>01</span><b>Wear</b><small>Capture ECG during everyday activity</small></button>
+            <button role="tab" aria-selected="false" aria-controls="journey-panel" id="connect-tab" data-stage="connect"><span>02</span><b>Connect</b><small>Transfer through mobile and cloud</small></button>
+            <button role="tab" aria-selected="false" aria-controls="journey-panel" id="review-tab" data-stage="review"><span>03</span><b>Review</b><small>Surface patterns for interpretation</small></button>
+          </div>
+          <div class="dashboard reveal" id="journey-panel" role="tabpanel" aria-labelledby="wear-tab">
+            <div class="dash-top"><div><span class="dot"></span><b>iSoma monitoring session</b></div><span>Illustrative interface</span></div>
+            <div class="dash-body">
+              <div class="signal-card"><div class="signal-meta"><span><small id="signal-label">WEARABLE SIGNAL</small><b id="signal-title">Continuous ECG capture</b></span><span class="quality"><i></i><small>Signal pathway active</small></span></div><svg viewBox="0 0 760 220" preserveAspectRatio="none" role="img" aria-label="Illustrative ECG waveform"><path class="grid" d="M0 44H760M0 88H760M0 132H760M0 176H760M76 0V220M152 0V220M228 0V220M304 0V220M380 0V220M456 0V220M532 0V220M608 0V220M684 0V220"/><path id="wave" class="wave" d="M0 120H78L93 112L105 124L119 120L133 70L146 174L162 115L184 120H272L287 111L300 124L314 120L329 72L342 172L358 115L380 120H468L483 111L497 124L511 120L526 69L539 175L555 115L578 120H666L681 111L695 124L709 120L724 74L738 168L752 116L760 120"/></svg></div>
+              <div class="dash-side"><div class="stage-orb"><i></i><span id="stage-number">01</span></div><small>CURRENT STAGE</small><h3 id="stage-title">Comfortable acquisition</h3><p id="stage-copy">The patch is designed to make extended ECG collection less intrusive during normal daily routines.</p><div class="sample-note">Example system visualisation only. No diagnostic result is displayed.</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section outcomes shell">
+      <div class="section-head reveal"><div><p class="eyebrow">Designed around unmet needs</p><h2>Less friction. More useful monitoring data.</h2></div><p>iSoma research focuses on the practical limitations that can make extended cardiac monitoring costly, uncomfortable or difficult to interpret.</p></div>
+      <div class="outcome-list reveal"><article><span>01</span><h3>Comfort over time</h3><p>A small-form-factor approach intended to reduce the burden of extended wear.</p></article><article><span>02</span><h3>Connected access</h3><p>A pathway linking the patch, mobile applications, cloud services and authorised reviewers.</p></article><article><span>03</span><h3>Efficient analysis</h3><p>AI-assisted methods intended to help prioritise long ECG recordings for expert review.</p></article><article><span>04</span><h3>Translation by design</h3><p>Development informed by clinician feedback, validation needs, privacy and regulatory planning.</p></article></div>
+    </section>
+
+    <section class="section evidence" id="evidence">
+      <div class="shell evidence-grid">
+        <div class="evidence-copy reveal"><p class="eyebrow">Research foundation</p><h2>Built on published research and protected innovation.</h2><p>iSoma brings together years of work in wearable ECG acquisition, ambulatory signal classification and connected health systems.</p><a class="text-link" href="https://doi.org/10.1109/TIM.2021.3072144" target="_blank" rel="noopener">View a foundational publication <span>↗</span></a></div>
+        <div class="metrics reveal"><article><strong>TRL 6</strong><span>Current component technology maturity</span></article><article><strong>10+</strong><span>Related peer-reviewed journal publications</span></article><article><strong>2</strong><span>Patent assets: one granted and one active</span></article><article><strong>2</strong><span>Mobile platforms: Android and iOS</span></article></div>
+      </div>
+    </section>
+
+    <section class="section development shell" id="development">
+      <div class="section-head reveal"><div><p class="eyebrow">Development pathway</p><h2>Moving from integrated prototype to clinical evaluation.</h2></div><p>The next phase centres on pilot manufacture, prospective evaluation, embedded intelligence and regulatory-quality evidence.</p></div>
+      <ol class="roadmap reveal">
+        <li class="done"><span><i></i>FOUNDATION</span><h3>Integrated prototype</h3><p>Wearable sensing, mobile applications and cloud-based analysis demonstrated as connected components.</p></li>
+        <li class="active"><span><i></i>NEXT PHASE</span><h3>Pilot units & evaluation</h3><p>Produce trial units and evaluate usability, signal quality and system performance with clinical collaborators.</p></li>
+        <li><span><i></i>VALIDATION</span><h3>Prospective evidence</h3><p>Assess arrhythmia-classification performance against predefined protocols and expert reference standards.</p></li>
+        <li><span><i></i>TRANSLATION</span><h3>Regulatory readiness</h3><p>Develop quality, safety, cybersecurity and commercialisation evidence for the intended use.</p></li>
+      </ol>
+      <div class="target-note reveal"><b>Important distinction</b><p>Performance thresholds described in project plans are development targets, not validated clinical claims. Public claims will be updated only after appropriate evaluation.</p></div>
+    </section>
+
+    <section class="collaboration" id="contact">
+      <div class="shell collaboration-grid"><div class="reveal"><p class="eyebrow light-eye">Clinical, research & industry collaboration</p><h2>Help shape the next stage of iSoma.</h2><p>We welcome conversations with health services, clinicians, researchers, manufacturers and investors interested in responsible cardiac-monitoring innovation.</p></div><div class="contact-card reveal"><h3>Start a conversation</h3><p>Associate Professor Zihuai Lin<br>School of Electrical and Computer Engineering<br>The University of Sydney</p><a class="button white" href="mailto:zihuai.lin@sydney.edu.au?subject=iSoma%20collaboration">zihuai.lin@sydney.edu.au <b>↗</b></a><small>For collaboration and research enquiries. Please do not send personal health information.</small></div></div>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-grid"><a class="logo footer-logo" href="#top"><span class="logo-pulse" aria-hidden="true"></span><span>iSoma<small>ECG + AI</small></span></a><p>Research and development website concept. iSoma is not presented here as a commercially approved medical device.</p><a href="#top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
